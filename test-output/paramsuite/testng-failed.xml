@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [paramsuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="paramtest(failed)">
+    <parameter name="a" value="welcome"/>
+    <parameter name="b" value="to selenium"/>
+    <classes>
+      <class name="parameterisationPVN.Test1">
+        <methods>
+          <include name="f1"/>
+        </methods>
+      </class> <!-- parameterisationPVN.Test1 -->
+    </classes>
+  </test> <!-- paramtest(failed) -->
+</suite> <!-- Failed suite [paramsuite] -->
